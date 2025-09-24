@@ -1,9 +1,8 @@
 # Description
 
-Demo: https://neb-create.github.io/hw01-fireball/
-
 The shape of the fireball is mainly created by distorting the vertices upwards using a 3D FBM perlin noise; this effect is amplified for vertices that have a normal similar to the up vector. Then, a color is mapped onto the surface based on the amplitute of this distortion effect, mixed with a perlin noise output. I also added a special effect so that the geometry has a bright outline and a core. Finally, I added a very simple background - by rendering an extra skybox geometry, and seperating the two in the vertex shader by passing a label variable into the fragment shadder.
 
+Demo Link: https://neb-create.github.io/hw01-fireball/
 The user can configure the FMB Octave, Flame Height and the Special Effect Size (Outline and Core) using the GUI; as well as changing the two base colors of the fireball.
 
 Was a really fun project, will probably expand on it in my free time when I'm less sleep deprived :)
